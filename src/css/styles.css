@@ -1,0 +1,35 @@
+.notes {
+    /* display: grid;
+    grid-template-columns: auto auto auto auto; */
+    display: flex;
+    flex-wrap: wrap;
+  
+    gap: 16px; /* Adjust gap between items as needed */
+    padding: 16px;
+  }
+.card{
+    position: relative;
+    margin-top: 10px;
+}
+.notes-section{
+    position: relative
+    ;
+    /* background-color: aqua; */
+    max-width: 100%;
+    
+}
+.icons{
+    display: flex;
+    /* background-color: red; */
+    padding: 10px 20px 10px 10px;
+    gap: 50%;
+}
+.card-title-icon{
+    /* background-color: yellow; */
+    padding: 0 5px 0 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 8%;
+    justify-content:space-between;
+}
